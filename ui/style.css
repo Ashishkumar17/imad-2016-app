@@ -1,12 +1,12 @@
 body {
     font-family: times-new-roman;
-    background-color: blue;
+    background-color: white;
     margin-top: 75px;
-    font-style: oblique;
+    font-style: normal;
 }
 
 .center {
-    text-align: center;
+    text-align: justify;
 }
 
 .text-big {
@@ -17,7 +17,7 @@ body {
     font-weight: bold;
 }
 
-.img-medium {
-    height: 200px;
+.img-small {
+    height: 350px;
 }
 
