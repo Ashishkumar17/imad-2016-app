@@ -1,6 +1,6 @@
 body {
     font-family: times-new-roman;
-    background-color: gray;
+    background-color: white;
     font-style: normal;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .bold {
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 .img-small {
