@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname,'/', 'Dhoni.html'));
 });
 
-app.get('/Dhoni Winning shot.jpg', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '/', 'Dhoni Winning shot.jpg'));
 });
 
