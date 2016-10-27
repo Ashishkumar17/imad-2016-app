@@ -23,11 +23,4 @@ app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
 
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname,'ui', 'Dhoni.html'));
-});
-
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '/', 'Dhoni Winning shot.jpg'));
-});
 
