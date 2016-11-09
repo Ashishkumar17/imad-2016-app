@@ -16,13 +16,12 @@
 
 <script>
 function myFunction() {
-    var x;
-    if (alert("Willing to sign in or leave ???") == true) {
-        x = "You have signed in!!!!";
-    } else {
-        x = "Ola!bye!";
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
     }
-    document.getElementById("demo").innerHTML = x;
 }
 </script>
 
