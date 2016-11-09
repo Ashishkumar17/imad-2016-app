@@ -1,2 +1,2 @@
 console.log('Loaded!');
-alert; "you are in fraek ";
+window.alert ("you are in fraek ");
